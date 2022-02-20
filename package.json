@@ -1,0 +1,28 @@
+{
+  "name": "tic-tac-pokee",
+  "version": "1.0.0",
+  "description": "Simple Tic-Tac-Toe with the starting pokemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.pug",
+    "clean": "rm -rf dist/ .parcel-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.0.0.81:49154/brnt-toast/tic-tac-pokee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.3.2",
+    "pug": "^3.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.49.8"
+  },
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.3.2"
+  }
+}
